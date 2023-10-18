@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Helium',
   tagline: 'Simplify Security Testing',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-helium.png',
 
   // Set the production url of your site here
   url: 'https://docs-helium.netlify.app',
