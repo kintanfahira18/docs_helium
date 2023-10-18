@@ -1,8 +1,8 @@
 {
-  "label": "Scans",
-  "position": 6,
+  "label": "Reports",
+  "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "You can download your scan report and change your company logo."
   }
 }

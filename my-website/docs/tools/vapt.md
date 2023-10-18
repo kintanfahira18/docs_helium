@@ -3,78 +3,53 @@ sidebar_position: 13
 ---
 
 # VAPT Tools
-
-Vulnerability Assessment and Penetration Testing (VAPT) adalah serangkaian layanan pengujian keamanan yang kritis untuk mengidentifikasi dan mengatasi kerentanan keamanan siber. Helium menyediakan berbagai VAPT Tools yang kuat untuk membantu Anda memproteksi sistem dan aplikasi Anda.
+Vulnerability Assessment and Penetration Testing (VAPT) is a range of security testing services to identify and address cybersecurity vulnerabilities.
+![VAPT Tools Capture](/img/capture/VAPTtools.png)
 
 ## VA Scanner
 
 ### Website Scanner
-- **Deskripsi**: Alat ini digunakan untuk menemukan kerentanan dalam aplikasi web, termasuk kerentanan seperti Log4j, SQL Injection, dan Cross-Site Scripting (XSS).
-
+- **Description**: Discover vulnerabilities in web applications, including Log4j, SQL Injection, and XSS.
 ### Network Scanner
-- **Deskripsi**: Alat ini digunakan untuk mengidentifikasi layanan jaringan yang ketinggalan zaman, konfigurasi perangkat lunak yang tidak aman, patch keamanan yang hilang, dan kerentanan lainnya.
-
+- **Description**: Discover outdated network services, insecure software configuration, missing security patches, and more vulnerabilities.
 ### API Scanner
-- **Deskripsi**: Alat ini memungkinkan pengguna untuk mengidentifikasi potensi kerentanan atau tindakan yang perlu diambil untuk meningkatkan keamanan jaringan Internet of Things (IoT).
-
+- **Description**: Users can identify potential vulnerabilities and improve IoT network security.
 ### Mobile Apps Scanner
-- **Deskripsi**: Alat ini digunakan untuk menemukan kerentanan yang memengaruhi aplikasi seluler (Android dan iOS), termasuk penyimpanan data yang tidak aman dan kualitas kode klien yang buruk.
+- **Description**: Discover vulnerabilities that affect mobile apps (Android and iOS), including insecure data storage and poor client code quality.
 
 ## Pentest Tools
 
 ### Bruteforce
-- **Deskripsi**: Alat ini digunakan untuk menemukan kredensial layanan di Aplikasi Web, SSH, FTP, MySQL, Telnet, dan banyak lagi.
-
+- **Description**: Find service credentials on Web Apps, SSH, FTP, MySQL, Telnet, and more.
 ### CMS Scanner
-- **Deskripsi**: Alat ini digunakan untuk mendeteksi kelemahan keamanan pada CMS (Content Management System) yang paling populer.
-
+- **Description**: Detecting security flaws of the foremost popular CMSs.
 ### Find DNS
-- **Deskripsi**: Alat ini digunakan untuk menemukan server nama domain target yang rentan terhadap Zona DNS.
-
+- **Description**: Find name servers of a target domain vulnerable to DNS Zone.
 ### Find Git Exposure
-- **Deskripsi**: Alat ini digunakan untuk menemukan kode sumber yang dapat diakses melalui folder .git yang terbuka.
-
+- **Description**: Discover source code via the exposed .git folder.
 ### Find Open Ports and Services
-- **Deskripsi**: Alat ini digunakan untuk menemukan layanan jaringan, sistem operasi, kesalahan konfigurasi, dan banyak lagi.
-
+- **Description**: Discover network services, operating systems, misconfigurations, and more.
 ### Find Security Headers
-- **Deskripsi**: Alat ini digunakan untuk menemukan kebijakan Header Keamanan yang meningkatkan tingkat perlindungan terhadap serangan seperti injeksi kode, serangan XSS, dan clickjacking.
-
+- **Description**: Discover the Security Header policies in place add another level of protection that can stop common attacks such as code injection, XSS attacks, and clickjacking.
 ### Find Subdomain
-- **Deskripsi**: Alat ini digunakan untuk menemukan subdomain dan mengidentifikasi kerentanannya.
-
+- **Description**: Discover subdomains and enumerate the vulnerabilities.
 ### Find Website Directory
-- **Deskripsi**: Alat ini digunakan untuk menemukan direktori dan file tersembunyi pada sebuah website, memudahkan dalam pengumpulan informasi.
-
+- **Description**: Discover hidden directories and files on a website, making it easier for you for information gathering.
 ### Find Website Tech
-- **Deskripsi**: Alat ini digunakan untuk menemukan informasi berguna tentang teknologi yang digunakan oleh aplikasi web target, baik sisi server maupun sisi klien.
-
+- **Description**: Find useful information about the technologies a target web application uses - server-side and client-side.
 ### Google Hacking
-- **Deskripsi**: Teknik peretasan yang memanfaatkan Google Search dan berbagai aplikasi Google lainnya untuk mencari kerentanan pada konfigurasi dan kode komputer yang digunakan oleh situs web. Pengguna dapat melakukan "dorking" pada target sesuai dengan tipe dork yang dipilih.
-
+- **Description**: A hacker technique called Google dorking uses Google Search and other Google apps to search for vulnerabilities in website code and configuration.
 ### Spring4Shell
-- **Deskripsi**: Alat ini digunakan untuk mendeteksi dan mengatasi kerentanan zero-day baru di Java Spring Framework.
-
+- **Description**: Detect and mitigate new zero-day vulnerabilities in the Java Spring Framework.
 ### SQLI Exploitation
-- **Deskripsi**: Alat ini digunakan untuk mengeksploitasi kerentanan SQL Injection dalam aplikasi web.
-
+- **Description**: Discover SQL Injection vulnerabilities in web applications.
 ### Website Recon
-- **Deskripsi**: Alat ini digunakan untuk menemukan informasi berguna tentang kesalahan konfigurasi dan folder/file sensitif yang digunakan oleh aplikasi web target, baik sisi server maupun sisi klien.
-
+- **Description**: Find useful information about Misconfiguration and sensitive folders/files used by a target web application - server-side and client-side.
 ### Whois Lookup
-- **Deskripsi**: Alat ini digunakan untuk menemukan data tentang sumber daya Internet seperti nama domain atau alamat IP.
-
+- **Description**: Discover data about an Internet resource such as a domain name or IP address.
 ### XSS Scanner
-- **Deskripsi**: Alat ini digunakan untuk menemukan kerentanan Cross-Site Scripting (XSS) dalam aplikasi web.
-
+- **Description**: Discover Cross-Site Scripting (XSS) vulnerabilities in web applications.
 ### XSS Hunting
-- **Deskripsi**: Alat ini digunakan untuk memastikan bukti konsep Anda dan menunjukkan risiko kerentanan XSS dalam aplikasi web.
+- **Description**: Assuring your Proofs-of-Concept and demonstrating the risk of XSS vulnerabilities in web applications.
 
-Dengan VAPT Tools yang tersedia, Anda dapat secara efektif mengidentifikasi dan mengatasi kerentanan keamanan dalam sistem dan aplikasi Anda untuk melindungi mereka dari ancaman keamanan siber.
-
-## Menghubungi Dukungan
-
-Jika Anda memiliki pertanyaan tentang penggunaan VAPT Tools atau membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi tim dukungan kami di [kontak dukungan].
-
-Salam,
-Tim [Nama Produk atau Layanan]
+Users can access the tools via the navigation menu by clicking on "VAPT Tools". If the user chooses to perform scanning via the navigation menu, then the user must enter the required target values. This is different from scanning via the targets page because the target value is entered at the beginning when adding the target. Once the scanning process is complete, users will receive a notification via email, and if they have integrated with Telegram or Slack, they will also receive notifications via both platforms.

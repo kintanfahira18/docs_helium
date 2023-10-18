@@ -1,23 +1,50 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
-# Congratulations!
+## Manage Your Profile
+Users can edit profile photos, change name, country, and company name, and also change passwords.
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+   ![Profile Capture](/img/capture/profile.png)
 
-Docusaurus has **much more to offer**!
+### Edit Profile Photos
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+   ![Edit Photo Profile Capture](/img/capture/edit-fotoprofile.png)
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+1. Click the Edit Photo button and the Select your Photo button will appear
+   ![Select Foto Profile Capture](/img/capture/select-fotoprofile.png)
 
-## What's next?
+2. Click the Choose Your Photo button then select an image on the device
+3. Click the **Save Photo** button
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+### Edit Profile Information
+
+Information that can be changed consists of name, country, and company name. However, email cannot be changed.
+
+![Information Profile Capture](/img/capture/information-profile.png)
+
+1. To change the name, type the name in the Your Name textbox
+2. To change the country, click the arrow in the country box
+3. To change the company name, type in the textbox Your Company Name
+4. When finished, click the **Save Profile** button
+
+### Change Password
+![Password Capture](/img/capture/password.png)
+
+1. Enter the old password in the Current Password textbox
+2. Enter a new password in the Password textbox
+3. Enter a new password confirmation in the Confirm new password textbox
+4. Click the **Save Password** button
+
+### Delete Account
+
+> **Warning:** This action is permanent and cannot be undone. Delete your account only if you are sure.
+
+1. Click the Delete Account button? Then information will appear as follows
+   ![Delete Account Capture](/img/capture/delete-account.png)
+
+2. Enter the reason or input in the Input your feedback textbox
+3. Click the checkbox to agree that the user understands deleting an account cannot be reversed and data cannot be recovered
+4. Click the **Delete Account** button to delete the account
+
+

@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Home
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Welcome to Helium: Automated Security Testing
 
-## Getting Started
+Helium is a platform that automates security testing for organizations to maintain the security of their systems and applications.
 
-Get started by **creating a new site**.
+## Why Helium?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Easy to use
+No need to install a bunch of tools on your machine. You only need login and run the assessment, no hassle anymore.
 
-### What you'll need
+### Continuous Security Assessment
+Schedule your scans and periodically evaluate your systems for the vulnerabilities.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Reporting
+Your test results can be downloaded in the form of a report and can be replaced with your logo (White label).
 
-## Generate a new site
+### Speed up your scans
+Helium Security running while you have logout. You can scan and go to sleep. We'll do for the rest.
 
-Generate a new Docusaurus site using the **classic template**.
+### Cost Efficient for All
+Cost efficient for personal or companies of all size. Helium Security provides vulnerability scanning with unlimited assessments for affordable price.
 
-The classic template will automatically be added to your project after you run the command:
+### Team Collaboration
+Working with the team to collaborate and deliver better security assessment.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

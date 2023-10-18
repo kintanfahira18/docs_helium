@@ -5,7 +5,6 @@ sidebar_position: 3
 # Introduction
 
 Thank you for choosing Helium! We're so excited for you to join our amazing user community. This documentation is a complete guide that will guide you through everything Helium has to offer.
-Dokumentasi ini bukan hanya sekadar kumpulan instruksi kering dan teks panjang. Ini adalah panduan pintar yang disajikan dengan cinta untuk memastikan Anda mendapatkan hasil maksimal dari penggunaan Helium Kami tahu Anda adalah orang yang ingin tahu, inovatif, dan mencari cara terbaik untuk menyelesaikan tugas-tugas Anda. Dokumentasi ini dibuat dengan Anda dalam pikiran.
 
 ## Helium Features Are Available to You!
 

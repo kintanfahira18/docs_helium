@@ -2,30 +2,36 @@
 sidebar_position: 5
 ---
 
-## Login ke Akun Anda
+## Login to Your Account
 
-Untuk mengakses Helium, Anda perlu masuk ke akun Anda. Berikut adalah langkah-langkah sederhana untuk melakukan login:
+To access Helium, you need to log in to your account. Here are the simple steps to log in:
 
-1. **Buka Halaman Login**: Pergi ke halaman utama Helium. Biasanya, Anda dapat menemukan tombol "Login" atau "Masuk" di sudut kanan atas halaman. Klik tombol tersebut untuk membuka halaman login.
+1. Enter the registered email address in the Email textbox
+2. Enter the password in the Password textbox
+3. Click the Remember Me checkbox
+4. Click the **LOGIN** button
+![Log In Capture](/img/capture/login.png)
+### Forgot Password?
 
-2. **Masukkan Informasi Login**: Di halaman login, Anda akan diminta untuk memasukkan informasi login Anda. Ini biasanya berupa alamat email yang Anda gunakan saat mendaftar dan kata sandi Anda.
+If the user forgets the password, the user can click Forgot Password then he will be directed to the following page.
 
-3. **Klik "Login"**: Setelah memasukkan alamat email dan kata sandi Anda, klik tombol "Login" atau "Masuk."
+![Forgot Password Capture](/img/capture/forgot-password.png)
 
-4. **Selamat Datang Kembali!**: Jika informasi login Anda benar, Anda akan diarahkan ke dashboard atau beranda akun Anda. Sekarang Anda dapat mulai menjelajahi Helium dan menggunakan semua fitur yang tersedia.
+1. Enter your email in the Email textbox
+2. Click the SEND button, a notification will go to the user's email
+   ![Send Email Capture](/img/capture/send-email.png)
 
-### Lupa Kata Sandi?
+   ![Retrieve New Password Capture](/img/capture/retrieve-your-new-password.png)
 
-Jika Anda lupa kata sandi Anda, jangan khawatir. Anda dapat mengikuti langkah-langkah berikut:
+3. Check your email and click the Retrieve new password button or click the link and it will go to the Reset password page
 
-1. Di halaman login, klik tautan "Lupa Kata Sandi" atau "Lupa Sandi" yang biasanya terletak di bawah kotak masukan kata sandi.
+   ![Reset Password Capture](/img/capture/reset-password.png)
 
-2. Anda akan diminta untuk memasukkan alamat email yang Anda gunakan saat mendaftar.
+4. Enter a new password in the Password textbox
+5. Enter a new password confirmation in the Confirm new password textbox
+6. Click the **RESET PASSWORD** button
 
-3. Kami akan mengirimkan instruksi pemulihan kata sandi ke alamat email Anda. Cek kotak masuk Anda dan ikuti instruksi tersebut untuk mengatur kata sandi baru.
+### Login Problem?
 
-### Masalah Login?
-
-Jika Anda mengalami masalah saat mencoba masuk ke akun Anda, pastikan Anda memasukkan informasi login dengan benar. Jika Anda masih mengalami masalah, silakan hubungi tim dukungan kami di [kontak dukungan]. Kami akan dengan senang hati membantu Anda mengatasi masalah ini.
-
+If you experience problems when trying to log in to your account, make sure you enter your login information correctly. If you are still experiencing problems, please contact our support team at [support contact]. We will be happy to help you resolve this issue.
 

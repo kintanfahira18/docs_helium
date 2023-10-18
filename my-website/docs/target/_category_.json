@@ -1,8 +1,8 @@
 {
-  "label": "VAPT Tools",
-  "position": 4,
+  "label": "Targets",
+  "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "A complete guide to managing targets."
   }
 }
