@@ -9,12 +9,12 @@ Mobile Static Application Security Testing allows to perform static analysis on 
 ![Mobile Apps Scans Capture](/img/capture/mobile-apps-scans.png)
 
 Additional Information:
-- App Name is the name of the application 
-- File Name contains the application file name 
-- Type is the type of application, namely Android or iOS 
-- Hash is the md5 hash of the scanned application 
-- Scan Date is the time the target was scanned 
-- Actions in the form of a report from the scanned target
+- **App Name** is the name of the application 
+- **File Name** contains the application file name 
+- **Type** is the type of application, namely Android or iOS 
+- **Hash** is the md5 hash of the scanned application 
+- **Scan Date** is the time the target was scanned 
+- **Actions** in the form of a report from the scanned target
 
 ## View the Mobile Apps Scan Report
 

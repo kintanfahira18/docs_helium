@@ -24,14 +24,28 @@ To change the vulnerability status, users can follow these steps.
 1. Click one of the vulnerability checkboxes whose status you want to change
 2. Click the Change Status button, then the status options will appear
    ![Change Status Capture](/img/capture/change-status.png)
-3. Select one of the statuses for the vulnerability
+3. Select one of the statuses for the vulnerability, a form will appear to add a reason
+   ![Reason Severity Capture](/img/capture/reason-severity.png)
+4. Type a reason in the Reason textbox
+5. Click the Change button to change the status and click Cancel if you want to cancel
+6. The status of this vulnerability has changed to Ignored as follows
+   ![Status Succesfully Capture](/img/capture/status-succesfully.png)
+7. On the scan details page, the status of the vulnerability will also change
+   ![After Change Status Capture](/img/capture/Detail-Scan-After-ChangeStatus.png)
 
 ## Change Severity
 To change the severity of a vulnerability, users can follow these steps.
 1. Click one of the vulnerability checkboxes whose severity you want to change
 2. Click the Change Severity button, then the severity options will appear
    ![Change Severity Capture](/img/capture/change-severity.png)
-3. Select one severity for the vulnerability
+3. Select one of the severity for the vulnerability, then a form will appear to add a reason 
+   ![Reason Severity Capture](/img/capture/reason-severity.png)
+4. Type a reason in the Reason textbox
+5. Click the Change button to change the severity and click Cancel if you want to cancel
+6. The severity of this vulnerability has changed to Informational as follows
+   ![Status Succesfully Capture](/img/capture/severity-succesfully.png)
+7. On the scan detail page, the severity of the vulnerability will also change
+   ![After Change Severity Capture](/img/capture/Detail-Scan-After-ChangeSeverity.png)
 
 ## Change View Setting
 
