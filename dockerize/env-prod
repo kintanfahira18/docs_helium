@@ -1,0 +1,2 @@
+BASE_URL = '/user-guide/'
+DOMAIN_URL = 'https://helium.sh'

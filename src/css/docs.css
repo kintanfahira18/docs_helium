@@ -1,0 +1,9 @@
+.navbar {
+  height: 80px !important; /* Adjust the height as per your needs */
+  padding: 8px 50px;
+}
+
+.navbar__logo {
+  height: auto;
+  margin: 4px 0px 0px;
+}
