@@ -5,12 +5,14 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
+  staticDirectories: ['static'],
+  noIndex: true,
   title: 'Helium',
   tagline: 'Simplify Security Testing',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
+  // Set the production URL of your site here
   url: 'https://docs-helium.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -29,66 +31,52 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'id'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr', // Ubah ke 'ltr'
+        htmlLang: 'en',
+      },
+      id: {
+        label: 'Indonesian',
+        direction: 'ltr',
+        htmlLang: 'id',
+      },
+    },
   },
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
+          routeBasePath: '/', 
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+        blog: false, // Optional: disable the blog plugin
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/helium-social-card.jpg',
-      navbar: {
-        title: 'Helium',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+  themeConfig: {
+    navbar: {
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Helium Guides',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'DOCS',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'API Reference',
-            position: 'right',
-          },
-        ],
-      },
-
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        {
+          type: "localeDropdown",
+          position: 'right',
+        },
+      ],
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 };
-
-module.exports = config;

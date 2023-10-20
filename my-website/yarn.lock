@@ -1924,7 +1924,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:2.4.3":
+"@docusaurus/plugin-content-docs@npm:2.4.3, @docusaurus/plugin-content-docs@npm:^2.4.3":
   version: 2.4.3
   resolution: "@docusaurus/plugin-content-docs@npm:2.4.3"
   dependencies:
@@ -7560,6 +7560,7 @@ __metadata:
   dependencies:
     "@docusaurus/core": 2.4.3
     "@docusaurus/module-type-aliases": 2.4.3
+    "@docusaurus/plugin-content-docs": ^2.4.3
     "@docusaurus/preset-classic": 2.4.3
     "@mdx-js/react": ^1.6.22
     clsx: ^1.2.1

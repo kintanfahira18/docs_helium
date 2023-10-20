@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Berikutnya",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Memulai",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Mulailah dari sini untuk dokumentasi.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Your Account": {
+    "message": "Akun Anda",
+    "description": "The label for category Your Account in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Your Account.link.generated-index.description": {
+    "message": "Langkah pertama di akun Anda",
+    "description": "The generated-index page description for category Your Account in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VAPT Tools": {
+    "message": "VAPT Tools",
+    "description": "The label for category VAPT Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VAPT Tools.link.generated-index.description": {
+    "message": "Panduan penggunaan VAPT Tools: Mulailah dengan langkah-langkah berikut ini.",
+    "description": "The generated-index page description for category VAPT Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Targets": {
+    "message": "Target",
+    "description": "The label for category Targets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Targets.link.generated-index.description": {
+    "message": "Panduan lengkap untuk mengelola target.",
+    "description": "The generated-index page description for category Targets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scans": {
+    "message": "Scan",
+    "description": "The label for category Scans in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scans.link.generated-index.description": {
+    "message": "Pada halaman pemindaian terdapat daftar semua target yang telah dipindai sebelumnya. Pemindaian yang dapat dihapus adalah pemindaian yang berstatus Gagal saja.",
+    "description": "The generated-index page description for category Scans in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reports": {
+    "message": "Laporan",
+    "description": "The label for category Reports in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reports.link.generated-index.description": {
+    "message": "Anda dapat mengunduh laporan pemindaian dan mengubah logo perusahaan Anda.",
+    "description": "The generated-index page description for category Reports in sidebar tutorialSidebar"
+  }
+}

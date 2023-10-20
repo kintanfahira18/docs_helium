@@ -1,0 +1,8 @@
+{
+  "label": "Scan",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Pada halaman pemindaian terdapat daftar semua target yang telah dipindai sebelumnya. Pemindaian yang dapat dihapus adalah pemindaian yang berstatus Gagal saja."
+  }
+}
