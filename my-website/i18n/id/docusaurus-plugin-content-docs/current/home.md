@@ -1,5 +1,5 @@
 ---
-slug: /id
+slug: /
 sidebar_position: 1
 ---
 
