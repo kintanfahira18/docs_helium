@@ -6,6 +6,8 @@
 
 # Development
 /.yarn
+.yarn
+.yarn/
 .idea/
 .idea
 /.idea
@@ -15,6 +17,7 @@
 .cache-loader
 
 # Misc
+.env
 .DS_Store
 .env.local
 .env.development.local
