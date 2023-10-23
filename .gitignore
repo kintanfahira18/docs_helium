@@ -3,10 +3,12 @@
 
 # Production
 /build
-/.idea
 
 # Development
 /.yarn
+.idea/
+.idea
+/.idea
 
 # Generated files
 .docusaurus
