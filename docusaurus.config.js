@@ -5,7 +5,6 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const domainUrl = process.env.DOMAIN_URL;
 const baseUrl = process.env.BASE_URL;
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Helium",
@@ -30,18 +29,18 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'id'],
+    defaultLocale: "en",
+    locales: ["en", "id"],
     localeConfigs: {
       en: {
-        label: 'English',
-        direction: 'ltr', // Ubah ke 'ltr'
-        htmlLang: 'en',
+        label: "English",
+        direction: "ltr", // Ubah ke 'ltr'
+        htmlLang: "en",
       },
       id: {
-        label: 'Indonesian',
-        direction: 'ltr',
-        htmlLang: 'id',
+        label: "Indonesian",
+        direction: "ltr",
+        htmlLang: "id",
       },
     },
   },
@@ -92,7 +91,7 @@ const config = {
           },
           {
             type: "localeDropdown",
-            position: 'right',
+            position: "right",
           },
           {
             href: `${domainUrl}/docs`,
