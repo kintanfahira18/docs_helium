@@ -4,14 +4,22 @@
 # Production
 /build
 
+# Development
+/.yarn
+.yarn
+.yarn/
+.idea/
+.idea
+/.idea
+
 # Generated files
 .docusaurus
 .cache-loader
 
 # Misc
+.env
 .DS_Store
 .env.local
-.env
 .env.development.local
 .env.test.local
 .env.production.local

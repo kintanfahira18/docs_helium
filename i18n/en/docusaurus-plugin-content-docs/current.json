@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Start here for documentation.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Your Account": {
+    "message": "Your Account",
+    "description": "The label for category Your Account in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Your Account.link.generated-index.description": {
+    "message": "The first step in your account",
+    "description": "The generated-index page description for category Your Account in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VAPT Tools": {
+    "message": "VAPT Tools",
+    "description": "The label for category VAPT Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VAPT Tools.link.generated-index.description": {
+    "message": "VAPT Tools usage guide: Get started with these steps.",
+    "description": "The generated-index page description for category VAPT Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Targets": {
+    "message": "Targets",
+    "description": "The label for category Targets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Targets.link.generated-index.description": {
+    "message": "A complete guide to managing targets.",
+    "description": "The generated-index page description for category Targets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scans": {
+    "message": "Scans",
+    "description": "The label for category Scans in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scans.link.generated-index.description": {
+    "message": "On the scans page there is a list of all targets that have been scanned previously. Scans that can be deleted are scans whose status is Failure only.",
+    "description": "The generated-index page description for category Scans in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reports": {
+    "message": "Reports",
+    "description": "The label for category Reports in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reports.link.generated-index.description": {
+    "message": "You can download your scan report and change your company logo.",
+    "description": "The generated-index page description for category Reports in sidebar tutorialSidebar"
+  }
+}

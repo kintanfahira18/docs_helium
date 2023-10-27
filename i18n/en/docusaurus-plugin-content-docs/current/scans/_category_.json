@@ -1,0 +1,8 @@
+{
+  "label": "Scans",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "On the scans page there is a list of all targets that have been scanned previously. Scans that can be deleted are scans whose status is Failure only."
+  }
+}

@@ -5,7 +5,6 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const domainUrl = process.env.DOMAIN_URL;
 const baseUrl = process.env.BASE_URL;
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Helium",
@@ -31,7 +30,19 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "id"],
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr", // Ubah ke 'ltr'
+        htmlLang: "en",
+      },
+      id: {
+        label: "Indonesian",
+        direction: "ltr",
+        htmlLang: "id",
+      },
+    },
   },
 
   presets: [
@@ -77,6 +88,10 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Home",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
           },
           {
             href: `${domainUrl}/docs`,
