@@ -1,0 +1,23 @@
+---
+sidebar_position: 6
+---
+
+# Dashboard
+Displays a summary of the vulnerability assessments of all targets.
+![Dashboard Capture](/img/capture/dashboard.png)
+
+Additional Information: 
+- **Severity Vulnerabilities in Percent** is the number of percentages of vulnerabilities that have been scanned based on the workspace that the user selected divided by severity level
+- **Severity Vulnerabilities in Number** is the number of vulnerabilities that have been scanned based on the workspace the user selected divided by severity level
+- **Total Vulnerabilities** is the number of vulnerabilities that have been scanned as a whole based on the workspace the user selected
+- **Total Targets** is the number of targets
+- **Scan running** is a target that is scanning the workspace that the user selects
+- **Scan waiting** is a target that is still queuing to be scanned in the workspace that the user selects
+- **Scan completed** is a scan that has finished scanning the workspace that the user selected
+- **Vulnerability Response** is the number of vulnerabilities based on levels ranging from Informational, Low, Medium, to High
+    - Open: unfixed vulnerability
+    - Fixed: vulnerabilities that have been fixed
+    - Accepted: accepted vulnerability
+    - False Positive: a vulnerability that should be fixed
+    - Ignored: denied vulnerability
+- **Latest Scan** is the most recent scan in the user's selected workspace
