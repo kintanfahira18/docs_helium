@@ -6,4 +6,6 @@ WORKDIR /usr/src/app
 COPY . .
 RUN mv dockerize/env-staging .env
 
-CMD ["npm", "run", "build"]
+RUN npm run build
+
+CMD ["npm", "run", "serve"]
