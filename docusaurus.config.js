@@ -77,6 +77,7 @@ const config = {
       navbar: {
         logo: {
           alt: "helium-logo",
+          srcDark: "img/helium-white.png",
           src: "https://helium-sec-dev.s3.ap-southeast-1.amazonaws.com/general/helium-landing.png",
           target: "_self",
           href: domainHelium,
