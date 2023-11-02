@@ -1,2 +1,3 @@
 BASE_URL = '/'
-DOMAIN_URL = 'https://helium.cyberwarrior.id'
+DOMAIN_URL = 'https://helium-ug.cyberwarrior.id'
+DOMAIN_URL_HELIUM = 'https://helium.cyberwarrior.id'

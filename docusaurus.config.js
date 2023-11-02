@@ -4,6 +4,7 @@ require("dotenv").config();
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const domainUrl = process.env.DOMAIN_URL;
+const domainHelium = process.env.DOMAIN_URL_HELIUM;
 const baseUrl = process.env.BASE_URL;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,7 +79,7 @@ const config = {
           alt: "helium-logo",
           src: "https://helium-sec-dev.s3.ap-southeast-1.amazonaws.com/general/helium-landing.png",
           target: "_self",
-          href: domainUrl,
+          href: domainHelium,
           width: 200,
           height: 80,
         },
