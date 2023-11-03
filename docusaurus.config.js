@@ -96,7 +96,7 @@ const config = {
             position: "right",
           },
           {
-            href: `${domainUrl}/docs`,
+            href: `${domainHelium}/docs`,
             label: "API Reference",
             position: "right",
           },
