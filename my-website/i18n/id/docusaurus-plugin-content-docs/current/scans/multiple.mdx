@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 40
 ---
 
 # Menggunakan Multiple Scan

@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 # Rincian Paket
-Pada halaman *Plan Details* terdapat berbagai fitur yang didapat oleh pengguna, seperti pada tampilan berikut.
+Pada halaman *Plan Details* menampilkan informasi lisensi yang sedang aktif, masa aktif lisensi,  dan fitur-fitur yang dapat diakses oleh pengguna, seperti pada tampilan berikut.
 
 ![Plan Details Capture](/img/capture/plan-details.png)
 
