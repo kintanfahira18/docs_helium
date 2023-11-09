@@ -1,0 +1,83 @@
+---
+sidebar_position: 19
+---
+
+# API Scanner
+Pengguna dapat mengidentifikasi potensi kerentanan atau tindakan yang perlu diambil untuk meningkatkan keamanan jaringan *IoT*.
+
+### Akses *API Scanner* melalui Menu Navigasi
+:::note
+
+Pengguna dapat melakukan pemindaian menggunakan VAPT Tools melalui menu navigasi "VAPT Tools". Dengan mengklik menu "VAPT Tools", akan muncul berbagai macam alat, kemudian klik alat *API Scanner*.
+
+:::
+![Select API Scanner Navbar Capture](/img/capture/vapt_navbar/Select-API-scanner-navbar.png)
+
+![API Scanner Capture](/img/capture/vapt_navbar/API-scanner.png)
+
+Untuk *scanning* menggunakan *API Scanner*, pengguna dapat mengikuti langkah-langkah berikut.
+1. Inputkan nama *task* pada *textbox Task Name* 
+2. Inputkan nilai target berupa *domain/URL/IPs*
+3. Inputkan *endpoint* pada *textbox Endpoint Path* (opsional)
+4. Pilih salah satu *scan option* yaitu antara *Full Scan*, *Basic Scan*, atau *Authentication*
+   :::note Catatan 
+   Jika scan option yang dipilih Authentication, maka secara otomatis Authentication akan Enabled. Selain itu, jika Authentication diaktifkan maka pada scan option akan secara otomatis diganti menjadi Authentication.
+   :::
+   ![API Scanner Authentication Capture](/img/capture/vapt_navbar/API-scanner-authentication.png)
+5. Klik tombol radio *Open API* sebagai *API Definition* yang akan digunakan
+6. Inputkan *API Definition* yang telah dibuatkan dan diunggah
+   :::info
+   Untuk cara mengkonversi *API Definition* yang sebelumnya masih dalam definisi *Postman* menjadi definisi *Open API*. Pengguna dapat mengikuti langkah-langkah berikut.
+   - Pengguna dapat mengekspor *postman collections* yang pengguna miliki
+     ![Export Postman Capture](/img/capture/export-postman.png)
+   - File yang masih dalam bentuk *Postman Collections JSON* harus dikonversikan ke dalam bentuk *Open API*
+   Terdapat berbagai website yang dapat membantu mengkonversi *Postman Collections*  ke *Open API*. Berikut salah satu cara dengan menggunakan laman web https://kevinswiber.github.io/postman2openapi/
+   - Buka laman web tersebut, maka akan terdapat dua tab yaitu *Postman Collection JSON* dan *OpenAPI*
+     ![Postman2OpenAPI Capture](/img/capture/postman2openapi.png)
+   - Buka file *postman collections JSON* yang telah diekspor sebelumnya kemudian salin semuanya
+   - Tempel pada tab *Postman Collections JSON*, namun terlebih dahulu hapus isi dari tab tersebut
+   - Secara otomatis definisi *Open API* telah dikonversikan pada tab *OpenAPI*
+   - Salin definisi Open API ke file dengan extensi .yml
+   - Unggah file definisi *Open API* tersebut ke internet agar dapat diunduh oleh Helium
+   :::
+7. Klik *Scheduled* untuk *Enabled* atau aktifkan *Schedule Scan* (opsional)
+8. Klik *checkbox agree Terms of Service*
+9. Klik tombol ***Apply*** untuk memulai *scan*
+
+### Akses *API Scanner* melalui Halaman Targets
+:::note Catatan
+
+Target yang dipilih akan dipindai dengan alat yang tersedia. Pilih Alat *API Scanner*.
+
+:::
+![Select API Scanner Capture](/img/capture/vapt_target/Select-API-scanner.png)
+
+![API Scanner Capture](/img/capture/vapt_target/API-scanner.png)
+
+Untuk *scanning* menggunakan *API Scanner*, pengguna dapat mengikuti langkah-langkah berikut.
+1. Inputkan nama *task* pada *textbox Task Name*  
+2. Inputkan endpoint path pada textbox Endpoint Path (opsional)
+3. Pilih salah satu *scan option* yaitu antara *Full Scan*, *Basic Scan* atau *Authentication*
+:::note Catatan
+Jika scan option yang dipilih Authentication, maka akan muncul pengisian Authentication seperti Login URL API, Login Payload, Auth Token Location, Auth Header Name, dan Enabled Advanced Options.
+:::
+   ![API Scanner Authentication Capture](/img/capture/vapt_navbar/API-scanner-authentication.png)
+4. Klik tombol radio *Open API* sebagai *API Definition* yang akan digunakan
+5. Inputkan *API Definition* yang telah dibuatkan dan diunggah
+   :::info
+   Untuk cara mengkonversi *API Definition* yang sebelumnya masih dalam definisi *Postman* menjadi definisi *Open API*. Pengguna dapat mengikuti langkah-langkah berikut.
+   - Pengguna dapat mengekspor *postman collections* yang pengguna miliki
+     ![Export Postman Capture](/img/capture/export-postman.png)
+   - File yang masih dalam bentuk *Postman Collections JSON* harus dikonversikan ke dalam bentuk *Open API*
+   Terdapat berbagai website yang dapat membantu mengkonversi *Postman Collections*  ke *Open API*. Berikut salah satu cara dengan menggunakan laman web https://kevinswiber.github.io/postman2openapi/
+   - Buka laman web tersebut, maka akan terdapat dua tab yaitu *Postman Collection JSON* dan *OpenAPI*
+     ![Postman2OpenAPI Capture](/img/capture/postman2openapi.png)
+   - Buka file *postman collections JSON* yang telah diekspor sebelumnya kemudian salin semuanya
+   - Tempel pada tab *Postman Collections JSON*, namun terlebih dahulu hapus isi dari tab tersebut
+   - Secara otomatis definisi *Open API* telah dikonversikan pada tab *OpenAPI*
+   - Salin definisi Open API ke file dengan extensi .yml
+   - Unggah file definisi *Open API* tersebut ke internet agar dapat diunduh oleh Helium
+   :::
+6. Klik *Enabled* untuk mengaktifkan *Schedule Scan* (opsional)
+7. Klik *checkbox agree Terms of Service*
+8. Klik tombol *Start Scan* untuk memulai *scan*, klik *Cancel* jika ingin membatalkan

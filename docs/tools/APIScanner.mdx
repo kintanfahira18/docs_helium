@@ -1,0 +1,81 @@
+---
+sidebar_position: 19
+---
+
+# API Scanner
+Users can identify potential vulnerabilities and improve IoT network security.
+
+### Access API Scanner via the Navigation Menu
+:::note
+
+Users can scan using VAPT Tools via the "VAPT Tools" navigation menu. By clicking on the "VAPT Tools" menu, various tools will appear, then click API Scanner tool.
+
+:::
+![Select API Scanner Navbar Capture](/img/capture/vapt_navbar/Select-API-scanner-navbar.png)
+
+![API Scanner Capture](/img/capture/vapt_navbar/API-scanner.png)
+
+To scan using the API Scanner, users can follow the steps below.
+1. Enter the task name in the Task Name textbox 
+2. Input the target value in the form of domain/URL/IPs 
+3. Input the endpoint in the Endpoint Path textbox (optional)
+4. Select one of the scan options, namely Full Scan, Basic Scan, or Authentication
+   :::note
+   If the selected scan option is Authentication, then Authentication will automatically be Enabled. In addition, if Authentication is enabled then the scan option will automatically be changed to Authentication.
+   :::
+   ![API Scanner Authentication Capture](/img/capture/vapt_navbar/API-scanner-authentication.png)
+5. Click the Open API radio button as the API Definition to use
+6. Input the API Definition that has been created and uploaded
+   :::info
+   For how to convert an API Definition that was previously still in the Postman definition into an Open API definition. Users can follow these steps.
+   - Users can export their postman collections
+     ![Export Postman Capture](/img/capture/export-postman.png)
+   - Files that are still in Postman Collections JSON form must be converted into Open API form
+   - Open the web page, there will be two tabs, namely Postman Collection JSON and OpenAPI
+     ![Postman2OpenAPI Capture](/img/capture/postman2openapi.png)
+   - Open the exported postman collections JSON file and copy it all together
+   - Paste in the Postman Collections JSON tab, but first delete the contents of the tab
+   - Open API definitions are automatically converted in the OpenAPI tab.
+   - Copy the Open API definition to a file with .yml extension
+   - Upload the Open API definition file to the internet so that it can be downloaded by Helium
+   :::
+7. Click Scheduled to Enabled schedule scan (optional)
+8. Click the agree Terms of Service checkbox 
+9. Click the **Apply** button to start the scan
+
+### Access API Scanner Via Targets Page
+:::note
+
+The selected target will be scanned with the available tools. Select API Scanner Tool
+
+:::
+![Select API Scanner Capture](/img/capture/vapt_target/Select-API-scanner.png)
+
+![API Scanner Capture](/img/capture/vapt_target/API-scanner.png)
+
+To scan using the Scanner API, users can follow the steps below.
+1. Enter the task name in the Task Name textbox 
+2. Input the endpoint path in the Endpoint Path textbox (optional)
+3. Select one of the scan options, namely Full Scan, Basic Scan, or Authentication
+   :::note
+   If the scan option is selected Authentication, then Authentication filling will appear such as Login URL API, Login Payload, Auth Token Location, Auth Header Name, and Enabled Advanced Options.
+   ::: 
+   ![API Scanner Authentication Capture](/img/capture/vapt_target/API-Targets-authentication.png)
+4. Click the Open API radio button as the API Definition to use
+5. Input the API Definition that has been created and uploaded
+   :::info
+   For how to convert an API Definition that was previously still in the Postman definition into an Open API definition. Users can follow these steps.
+   - Users can export their postman collections
+     ![Export Postman Capture](/img/capture/export-postman.png)
+   - Files that are still in Postman Collections JSON form must be converted into Open API form
+   - Open the web page, there will be two tabs, namely Postman Collection JSON and OpenAPI
+     ![Postman2OpenAPI Capture](/img/capture/postman2openapi.png)
+   - Open the exported postman collections JSON file and copy it all together
+   - Paste in the Postman Collections JSON tab, but first delete the contents of the tab
+   - Open API definitions are automatically converted in the OpenAPI tab.
+   - Copy the Open API definition to a file with .yml extension
+   - Upload the Open API definition file to the internet so that it can be downloaded by Helium
+   :::
+6. Click Enabled to activate Schedule Scan (optional)
+7. Click the agree Terms of Service checkbox 
+8. Click the **Start Scan** button to start the scan, click Cancel if you want to cancel
