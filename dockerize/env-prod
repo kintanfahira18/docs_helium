@@ -1,3 +1,3 @@
 BASE_URL = '/'
-DOMAIN_URL = 'https://guide.helium.sh'
+DOMAIN_URL = 'https://manual.helium.sh'
 DOMAIN_URL_HELIUM = 'https://helium.sh'
