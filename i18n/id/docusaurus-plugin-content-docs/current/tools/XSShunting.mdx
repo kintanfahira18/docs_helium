@@ -1,0 +1,35 @@
+---
+sidebar_position: 36
+---
+
+# XSS Hunting
+Memastikan Bukti Konsep Anda dan menunjukkan risiko kerentanan *XSS* dalam aplikasi web.
+
+### Akses *XSS Hunting* melalui Menu Navigasi
+:::note Catatan
+
+Pengguna dapat melakukan pemindaian menggunakan VAPT Tools melalui menu navigasi "VAPT Tools". Dengan mengklik menu "VAPT Tools", akan muncul berbagai macam alat, kemudian klik alat *XSS Hunting*.
+
+:::
+![Select XSS Hunting Navbar Capture](/img/capture/vapt_navbar/Select-XSS-hunting-navbar.png)
+
+Untuk menggunakan *XSS Hunting*, pengguna dapat mengikuti langkah-langkah berikut
+1. Klik tombol “Generate”
+2. Buka dropdown “Payloads”
+3. Salin salah satu *payload*
+
+   ![Payloads Capture](/img/capture/vapt_navbar/payloads.png)
+4. Tempelkan *payload* yang telah disalin di *parameter* yang rentan di aplikasi target
+   ![Guestbook Capture](/img/capture/vapt_navbar/guestbook.png)
+5. Tunggu sampai ada korban yang membuka halaman yang telah dimasukan *payload* tersebut
+6. Jika ada korban yang membuka halaman tersebut, maka akan ada beberapa informasi yang tersimpan ke Helium Security
+
+   ![Victim Capture](/img/capture/vapt_navbar/victim.png)
+7. Klik *Detail* untuk melihat *XSS Hunting Summary*
+   ![Detail XSS Hunting Capture](/img/capture/vapt_navbar/detail-XSS-hunting.png)
+
+:::info
+
+Untuk menggunakan *tools XSS Hunting*, pengguna hanya dapat mengakses melalui menu navigasi.
+
+:::

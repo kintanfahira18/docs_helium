@@ -1,0 +1,33 @@
+---
+sidebar_position: 36
+---
+
+# XSS Hunting
+Discover Cross-Site Scripting (XSS) vulnerabilities in web applications.
+
+### Access XSS Hunting via the Navigation Menu
+:::note
+
+Users can scan using VAPT Tools via the "VAPT Tools" navigation menu. By clicking on the "VAPT Tools" menu, various tools will appear, then click XSS Hunting tool.
+
+:::
+![Select XSS Hunting Navbar Capture](/img/capture/vapt_navbar/Select-XSS-hunting-navbar.png)
+
+To use XSS Hunting, users can follow the sfollowing steps.
+1. Click the "Generate" button
+2. Open the “Payloads” dropdown
+3. Copy one of the payloads
+   ![Payloads Capture](/img/capture/vapt_navbar/payloads.png)
+4. Paste the copied payload in the vulnerable parameters of the target application
+   ![Guestbook Capture](/img/capture/vapt_navbar/guestbook.png)
+5. Wait until a victim opens the page where the payload has been inserted
+6. If a victim opens the page, there will be some information saved to Helium Security
+   ![Victim Capture](/img/capture/vapt_navbar/victim.png)
+7. Click Detail to view the XSS Hunting Summary
+   ![Detail XSS Hunting Capture](/img/capture/vapt_navbar/detail-XSS-hunting.png)
+
+:::info
+
+To use the **XSS Hunting** tool, users can only access it via the navigation menu.
+
+:::
